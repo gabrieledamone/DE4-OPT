@@ -2,6 +2,24 @@
 
 Author: Gabriele D'Amone
 
+Overview: This study aims to optimise the propulsive force that a paddler with a muscular strength of 125 N can generate in a specific amount of time (180 seconds).
+
+The outputs of this Optimisation will suggest a personalised Paddle blade design and Paddling Tecnique:
+
+**Paddling Tecnique**
+
+- Peak Blade Velocity
+- Stroke Exit Angle
+- Stroke Rate
+- Average Thrust
+
+**Paddle Blade Design**
+
+- Blade Cross Section
+- Blade Surface Area
+
+
+
 ## Dependencies
 
 This subsystem runs using Matlab R2019b.
@@ -21,9 +39,8 @@ Then, please find below an overview of the Matlab files and their content:
 - **Airfoil2.m** Linear Programmatic Fitting to determine the equations for Coefficient of Drag and Coefficient of Lift
   - Download **Coefficient.xlsx**
 - **Fatigue.m** Linear Programmatic Fitting to output Force Profile affected by Fatigue
-- **UpdatedFunctionTwoVariables.m** Fmincon Interior Point Algorithm
+- **UpdatedFunctionTwoVariables.m** Fmincon Interior Point Algorithm + Global Search 
 - **SQPAlgorithm.m** Fmincon Sequential Quadratic Programming Algorithm
-
 
 
 ## Performance
