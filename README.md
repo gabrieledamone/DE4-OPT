@@ -55,3 +55,6 @@ The code was developed **from Monday, December 19th**, on an MSI Laptop running 
 
 Execution time is noted at the end of the Matlab output. Last run time was approximately 3.52 seconds for **FminconInteriorPoint.m**, while 3.15 seconds for **SQPAlgorithm.m**.
 
+## Now it's your turn!
+
+Feel free to change the input values in the code for the **Paddler Strength** and the **Paddling Time** depending on your curiosity and determine what paddle specifications best fit your needs. 
