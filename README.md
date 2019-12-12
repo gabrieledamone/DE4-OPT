@@ -41,7 +41,7 @@ Then, please find below an overview of the Matlab files and their content:
   - Download **Coefficient.xlsx**
 - **Fatigue.m** Metamodel of Force Profile affected by Fatigue
 - **FminconInteriorPoint.m** Fmincon Interior Point Algorithm + Global Search 
-- **SQPAlgorithm.m** Fmincon Sequential Quadratic Programming Algorithm
+- **SQPAlgorithm.m** Fmincon Sequential Quadratic Programming Algorithm + Global Search
 
 
 ## Performance
