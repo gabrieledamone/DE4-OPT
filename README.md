@@ -2,6 +2,8 @@
 
 Author: Gabriele D'Amone
 
+## Subsystem 2: Optimising Paddle 
+
 **Main Script** The Subsystem2.pynb should be run for initial research and proceedings The OptiSub2.m script should be run for optimisation results
 
 **Execution Time** Subsystem2.pynb execution time is approximately 13.6 seconds OptiSub2.m execution time is approximately 3.6 seconds
