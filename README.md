@@ -2,7 +2,7 @@
 
 **Author:** Gabriele D'Amone
 
-**Overview:** This study aims to optimise the propulsive force that a paddler with a muscular strength of 125 N can generate in a specific amount of time (180 seconds).
+**Overview:** This study aims to maximise the propulsive force that a paddler with a muscular strength of 125 N can generate in a specific amount of time (180 seconds).
 
 The outputs of this Optimisation will suggest a personalised Paddle blade design and Paddling Tecnique:
 
