@@ -1,5 +1,7 @@
 # Subsystem 2: Optimising Paddle 
 
+<img align="right" src="https://github.com/gabrieledamone/DE4-OPT/blob/master/Paddle%20Subsystem%20Image.png" height="420" width="480">
+
 **Author:** Gabriele D'Amone
 
 **Overview:** This study aims to maximise the propulsive force that a paddler with a muscular strength of 125 N can generate in a specific amount of time (180 seconds).
@@ -8,7 +10,7 @@ The outputs of this Optimisation will suggest a personalised Paddle blade design
 
 **Paddling Tecnique**
 
-- Peak Blade Velocity
+- Peak Blade Velocity 
 - Stroke Exit Angle
 - Stroke Rate
 
