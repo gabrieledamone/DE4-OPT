@@ -57,4 +57,4 @@ Execution time is noted at the end of the Matlab output. Last run time was appro
 
 ## Now it's your turn!
 
-Feel free to change the input values in the code for the **Paddler Strength** and the **Paddling Time** depending on your curiosity and determine what paddle specifications best fit your needs. 
+Feel free to change the input values in the code for the **Paddler Strength** and the **Paddling Time**, and determine what paddle specifications best fit your needs. 
