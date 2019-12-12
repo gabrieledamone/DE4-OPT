@@ -37,10 +37,10 @@ To run this code, first ensure you have installed on Matlab the following Toolbo
 
 Then, please find below an overview of the Matlab files and their content:
 
-- **Airfoil2.m** Linear Programmatic Fitting to determine the equations for Coefficient of Drag and Coefficient of Lift
+- **AirfoilCoefficient.m** Linear Programmatic Fitting to determine the equations for Coefficient of Drag and Coefficient of Lift
   - Download **Coefficient.xlsx**
 - **Fatigue.m** Linear Programmatic Fitting to output Force Profile affected by Fatigue
-- **UpdatedFunctionTwoVariables.m** Fmincon Interior Point Algorithm + Global Search 
+- **FminconInteriorPoint.m** Fmincon Interior Point Algorithm + Global Search 
 - **SQPAlgorithm.m** Fmincon Sequential Quadratic Programming Algorithm
 
 
