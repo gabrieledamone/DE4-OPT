@@ -2,7 +2,7 @@
 
 Author: Gabriele D'Amone
 
-## Subsystem 2: Optimising Paddle 
+## Dependencies
 
 **Main Script** The Subsystem2.pynb should be run for initial research and proceedings The OptiSub2.m script should be run for optimisation results
 
