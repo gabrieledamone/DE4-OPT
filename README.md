@@ -20,7 +20,6 @@ The outputs of this Optimisation will suggest a personalised Paddle blade design
 - Blade Surface Area
 
 
-
 ## Dependencies
 
 This subsystem runs using Matlab R2019b.
@@ -50,8 +49,9 @@ This subsystems code was developed **up to Friday, December 15th**, on a HP runn
 
 | Processor Name: Intel Core i7 | Processor Speed: 2.6 GHz | Number of Processors: 1 | Total Number of Cores: 8
 
-Execution time is noted at the end of the Matlab output. Last run time was approximately 3 seconds.
-
 The code was developed **from Monday, December 19th**, on an MSI Laptop running Windows 10.0.1 with the following specifications:
 
 | Processor Name: Intel Core i7 | Processor Speed: 2.6 GHz | Number of Processors: 1 | Total Number of Cores: 4
+
+Execution time is noted at the end of the Matlab output. Last run time was approximately 3.52 seconds for **FminconInteriorPoint.m**, while 3.15 seconds for **SQPAlgorithm.m**.
+
