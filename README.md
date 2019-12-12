@@ -20,6 +20,10 @@ Then, please find below an overview of the Matlab files and their content:
 
 - **Airfoil2.m** Linear Programmatic Fitting to determine the equations for Coefficient of Drag and Coefficient of Lift
   - Download **Coefficient.xlsx**
+- **Fatigue.m** Linear Programmatic Fitting to output Force Profile affected by Fatigue
+- **UpdatedFunctionTwoVariables.m** Fmincon Interior Point Algorithm
+- **SQPAlgorithm.m** Fmincon Sequential Quadratic Programming Algorithm
+
 
 
 ## Performance
