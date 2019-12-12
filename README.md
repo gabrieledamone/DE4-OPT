@@ -10,6 +10,15 @@ The packages used by this subsystem are listed in the repository requirements.tx
 
 ## Getting Started
 
+To run this code, first ensure you have installed on Matlab the following Toolboxes:
+
+- Optimisation Toolbox
+- Global Optimisation Toolbox
+- Curve Fitting Toolbox
+
+Then, please find below an overview of the Matlab files and their content:
+
+- **Airfoil2.m** Linear Programmatic Fitting to determine the equations for Coefficient of Drag and Coefficient of Lift
 
 
 ## Performance
