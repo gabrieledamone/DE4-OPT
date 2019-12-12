@@ -4,7 +4,9 @@ Author: Gabriele D'Amone
 
 ## Dependencies
 
-**Main Script** The Subsystem2.pynb should be run for initial research and proceedings The OptiSub2.m script should be run for optimisation results
+This subsystem runs using Matlab R2019b.
+
+The packages used by this subsystem are listed in the repository requirements.txt. Please refer there to manually install required packages.
 
 **Execution Time** Subsystem2.pynb execution time is approximately 13.6 seconds OptiSub2.m execution time is approximately 3.6 seconds
 
