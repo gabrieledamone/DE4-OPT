@@ -10,7 +10,7 @@ Cd = (2.922e-08).*x2.^4 + (-1.076e-05).*x2.^3 + 0.001021.*x2.^2 - 0.005576.*x2 +
 Cl = (-1.593e-08).*x2.^4 + (1.05e-05).*x2.^3 - 0.001837.*x2.^2 + 0.07757.*x2 + 1.012;
 
 % Inputs
-racetime = 180 % 3 mins race time
+paddlingtime = 180 % 3 mins race time
 paddlerstrength = 125 % 125 N is the peak force the paddler can withstand
 
 % Definitions
@@ -27,7 +27,7 @@ funintegrated = funindefinite(x2) - funindefinite(25)
 funintegratedanonymous = matlabFunction(funintegrated); % convert symbolic function to anonymous function      
                      
 % Objective Function
-funopti = @(x) -(-1.5.*(racetime./((((x(2)-25).*0.01745.*r)./x(1))+0.2)).^2 + (racetime./((((x(2)-25).*0.01745.*r)./x(1))+0.8)).*funintegratedanonymous(x(2))-(funintegratedanonymous(x(2))-1.5)) % objective function
+funopti = @(x) -(-1.5.*(paddlingtime./((((x(2)-25).*0.01745.*r)./x(1))+0.2)).^2 + (paddlingtime./((((x(2)-25).*0.01745.*r)./x(1))+0.8)).*funintegratedanonymous(x(2))-(funintegratedanonymous(x(2))-1.5)) % objective function
 
 % Set Bound Conditions
 lb = [0.01,26]; % lower bound
@@ -54,16 +54,28 @@ nonlcon = [];
 options = optimoptions('fmincon', 'Display', 'iter' , 'Algorithm','sqp');
 [x,fval] = fmincon(funopti,x0,A,b,Aeq,beq,lb,ub,nonlcon, options);
 
+% Stopping run time
+toc
+
+% Average Thrust Equation
+AverageThrust = (125.*(-cosd(x(2))+cosd(25)))./3.14
+
+% Sensitivity Analysis
+[x,fval,exitflag,output,lambda,grad,hessian] = fmincon(funopti,x0,A,b,Aeq,beq,lb,ub)
 
 % Display solution
+disp(' ')
 disp('Optimisation Results:')
+disp(' ')
+disp(['Elapsed Time = ' num2str(toc) ' seconds'])
 disp(['Maximum Velocity = ' num2str(x(1)) ' m/s'])
 disp(['Stroke Exit Angle = ' num2str(x(2)) ' degrees'])
 disp(['Surface Area = ' num2str(0.139./((x(1)).^2)) ' m^2'])
-disp(['Propulsive Force Generated = ' num2str(-fval) ' N'])
-disp(['Stroke Rate = ' num2str((180./((((x(2)-25).*0.01745.*r)./x(1))+0.2))./3) ' strokes/min' ])
+disp(['Total Propulsive Force Generated = ' num2str(-fval) ' N'])
+disp(['Stroke Rate = ' num2str((paddlingtime./((((x(2)-25).*0.01745.*r)./x(1))+0.2))./(paddlingtime./60)) ' strokes/min' ])
+disp(['Number of Strokes = ' num2str((paddlingtime./((((x(2)-25).*0.01745.*r)./x(1))+0.2))) ' strokes' ])
+disp(['Average Thrust = ' num2str(AverageThrust) ' N' ])
 
-toc
 
 %% Global Search to find Global Minimum
 
