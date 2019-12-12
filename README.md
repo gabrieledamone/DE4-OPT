@@ -24,15 +24,15 @@ The outputs of this Optimisation will suggest a personalised Paddle blade design
 
 This subsystem runs using Matlab R2019b.
 
-The packages used by this subsystem are listed in the repository requirements.txt. Please refer there to manually install required packages.
+The packages used by this subsystem are listed in the section below.
 
 ## Getting Started
 
 To run this code, first ensure you have installed on Matlab the following Toolboxes:
 
-- Optimisation Toolbox
-- Global Optimisation Toolbox
-- Curve Fitting Toolbox
+- **Optimisation Toolbox** (Download here https://uk.mathworks.com/products/optimization.html)
+- **Global Optimisation Toolbox** (Download here https://uk.mathworks.com/products/global-optimization.html)
+- **Curve Fitting Toolbox** (Download here https://uk.mathworks.com/products/curvefitting.html)
 
 Then, please find below an overview of the Matlab files and their content:
 
