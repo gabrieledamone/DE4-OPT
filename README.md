@@ -11,7 +11,6 @@ The outputs of this Optimisation will suggest a personalised Paddle blade design
 - Peak Blade Velocity
 - Stroke Exit Angle
 - Stroke Rate
-- Average Thrust
 
 **Paddle Blade Design**
 
