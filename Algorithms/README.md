@@ -15,6 +15,14 @@ Please find below a description of the two algorithms and their results:
 **Description:** The interior-point approach to constrained minimization is to solve a sequence of approximate minimization problems.
 
 **Results:** 
+- Peak Blade Velocity: 4.4 m/s
+- Blade Angle of Exit: 124.9 degrees
+- Blade Surface Area: 70.6 cm^2
+- Total Propulsive Force: 1,235,409 N
+- Stroke Rate:	151.3 strokes/min
+- Number of Strokes:	453.8
+- Average Thrust:	58.8 N
+- Elapsed Time: 3.52 seconds
 
 ## Fmincon Sequential Quadratic Programming
 
@@ -23,6 +31,15 @@ Please find below a description of the two algorithms and their results:
 **Description:** The sqp algorithm takes every iterative step in the region constrained by bounds. Usually, sqp has faster execution time and less memory usage.
 
 **Results:**
+- Peak Blade Velocity: 4.4 m/s
+- Blade Angle of Exit: 124.9 degrees
+- Blade Surface Area: 70.6 cm^2
+- Total Propulsive Force: 1,235,409 N
+- Stroke Rate:	151.3 strokes/min
+- Number of Strokes:	453.8
+- Average Thrust:	58.8 N
+- Elapsed Time: 3.15 seconds
+
 
 
 ## Dependencies
