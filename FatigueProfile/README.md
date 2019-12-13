@@ -28,8 +28,8 @@ The packages used by this subsystem are listed in the section below.
 
 To run this code, first ensure you have installed on Matlab the following Toolboxes:
 
-- **Optimisation Toolbox** (Download here https://uk.mathworks.com/products/optimization.html)
-- **Global Optimisation Toolbox** (Download here https://uk.mathworks.com/products/global-optimization.html)
+- **Curve Fitting Toolbox** (Download here https://uk.mathworks.com/products/curvefitting.html)
+- **Symbolic Math Toolbox** (Download here https://uk.mathworks.com/products/symbolic.html)
 
 Then, please find below an overview of the Matlab files and their content:
 
