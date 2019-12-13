@@ -8,35 +8,23 @@
 
 ## Blade Cross Section Selection
 
-**File Name:** FminconInteriorPoint.m
+**Website:** http://airfoiltools.com/airfoil/details?airfoil=goe448-il
 
-**Description:** The interior-point approach to constrained minimization is to solve a sequence of approximate minimization problems.
+**Description:** Since the lift creates the thrust and the drag is related to the strength of the athlete, the design should minimize the drag and maximize the lift. The Airfoil selected was the one with the highest Lift to Drag ration, the Airfoil GOE 448.
 
-**Results:** 
-- Peak Blade Velocity: 4.4 m/s
-- Blade Angle of Exit: 124.9 degrees
-- Blade Surface Area: 70.6 cm^2
-- Total Propulsive Force: 1,235,409 N
-- Stroke Rate:	151.3 strokes/min
-- Number of Strokes:	453.8
-- Average Thrust:	58.8 N
-- Elapsed Time: 3.52 seconds
+**Data:** 
+The data provided by the Nasa database only had the coefficients values for angles of attack from 0 to 20 degrees. The values though, followed a sinusoidal profile, which allowed to get a more accurate estimate over the whole 180 degrees. 
 
-## Airfoil GOE 448 Data
+## Metamodel Creation
 
-**File Name:** SQPAlgorithm.m
+**File Name:** AirfoilCoefficient.m
 
-**Description:** The sqp algorithm takes every iterative step in the region constrained by bounds. Usually, sqp has faster execution time and less memory usage.
+**Description:** The MatLab function polyfit(x,y,n) found the coefficients of a polynomial p(x) of degree n that fitted the data. 
 
-**Results:**
-- Peak Blade Velocity: 4.4 m/s
-- Blade Angle of Exit: 124.9 degrees
-- Blade Surface Area: 70.6 cm^2
-- Total Propulsive Force: 1,235,409 N
-- Stroke Rate:	151.3 strokes/min
-- Number of Strokes:	453.8
-- Average Thrust:	58.8 N
-- Elapsed Time: 3.15 seconds
+**Equations:**
+- C_D=2.9e^(-8) 〖∝_f〗^4  -1.07e^(-5) 〖∝_f〗^3  + 0.001〖∝_f〗^2  - 0.005∝_f- 0.0004
+- C_L=1.6e^(-8) 〖∝_f〗^4+1.05e^(-5) 〖∝_f〗^3  - 0.002〖∝_f〗^2+ 0.077∝_f+ 1.01
+
 
 ## Dependencies
 
