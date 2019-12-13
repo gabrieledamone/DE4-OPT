@@ -22,7 +22,7 @@ The outputs of this Optimisation will suggest a personalised Paddle blade design
 
 ## Dependencies
 
-This subsystem runs using Matlab R2019b.
+This subsystem runs using Matlab R2019b and Microsoft Excel.
 
 The packages used by this subsystem are listed in the section below.
 
