@@ -1,6 +1,6 @@
 # Subsystem 2: Algorithms
 
-<img align="right" src="https://github.com/gabrieledamone/DE4-OPT/blob/master/Images/objectivefunction.png" height="420" width="480">
+<img align="right" src="https://github.com/gabrieledamone/DE4-OPT/blob/master/Images/objectivefunction.png" height="400" width="480">
 
 **Author:** Gabriele D'Amone
 
