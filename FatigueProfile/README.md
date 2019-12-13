@@ -1,6 +1,6 @@
 # Subsystem 2: Force Profile affected by Fatigue
 
-<img align="right" src="https://github.com/gabrieledamone/DE4-OPT/blob/master/Images/Coefficients.png" height="400" width="480">
+<img align="right" src="https://github.com/gabrieledamone/DE4-OPT/blob/master/Images/Fatigue.png" height="400" width="480">
 
 **Author:** Gabriele D'Amone
 
