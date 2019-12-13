@@ -6,7 +6,7 @@
 
 **Overview:** This section aims to give an explanation of how were the equations for these two parameters obtained. 
 
-## Paddle Blade Cross Section Selection
+## Blade Cross Section Selection
 
 **File Name:** FminconInteriorPoint.m
 
