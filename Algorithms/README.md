@@ -6,16 +6,20 @@
 
 Please find below a description of the two algorithms and their results:
 
-**Fmincon Interior Point Algorithm**
+## Fmincon Interior Point Algorithm
 
 **File Name:** FminconInteriorPoint.m
+
 **Description:** The interior-point approach to constrained minimization is to solve a sequence of approximate minimization problems.
+
 **Results:** 
 
-**Fmincon Sequential Quadratic Programming**
+## Fmincon Sequential Quadratic Programming
 
 **File Name:** SQPAlgorithm.m
+
 **Description:** The sqp algorithm takes every iterative step in the region constrained by bounds. Usually, sqp has faster execution time and less memory usage.
+
 **Results:**
 
 
