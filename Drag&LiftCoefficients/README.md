@@ -1,6 +1,6 @@
 # Subsystem 2: Drag & Lift Coefficients Metamodel
 
-<img align="right" src="https://github.com/gabrieledamone/DE4-OPT/blob/master/Images/objectivefunction.png" height="400" width="480">
+<img align="right" src="https://github.com/gabrieledamone/DE4-OPT/blob/master/Images/Coefficients.png" height="400" width="480">
 
 **Author:** Gabriele D'Amone
 
