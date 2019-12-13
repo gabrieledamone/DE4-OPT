@@ -1,5 +1,7 @@
 # Subsystem 2: Algorithms
 
+<img align="right" src="https://github.com/gabrieledamone/DE4-OPT/blob/master/Images/Paddle%20Subsystem%20Image.png" height="420" width="480">
+
 **Author:** Gabriele D'Amone
 
 **Overview:** This section aims to give an overview of the algorithms used in the study. 
