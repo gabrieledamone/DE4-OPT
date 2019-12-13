@@ -10,6 +10,8 @@
 
 **Website:** http://airfoiltools.com/airfoil/details?airfoil=goe448-il
 
+**Website:** Coefficient.xlsx
+
 **Description:** Since the lift creates the thrust and the drag is related to the strength of the athlete, the design should minimize the drag and maximize the lift. The Airfoil selected was the one with the highest Lift to Drag ration, the Airfoil GOE 448.
 
 **Data:** 
@@ -41,23 +43,6 @@ To run this code, first ensure you have installed on Matlab the following Toolbo
 
 Then, please find below an overview of the Matlab files and their content:
 
-- **FminconInteriorPoint.m** Fmincon Interior Point Algorithm + Global Search 
-- **SQPAlgorithm.m** Fmincon Sequential Quadratic Programming Algorithm + Global Search
-
-
-## Performance
-
-This subsystems code was developed **up to Friday, December 15th**, on a HP running Windows 10 with the following specifications:
-
-| Processor Name: Intel Core i7 | Processor Speed: 2.6 GHz | Number of Processors: 1 | Total Number of Cores: 8
-
-The code was developed **from Monday, December 19th**, on an MSI Laptop running Windows 10.0.1 with the following specifications:
-
-| Processor Name: Intel Core i7 | Processor Speed: 2.6 GHz | Number of Processors: 1 | Total Number of Cores: 4
-
-Execution time is noted at the end of the Matlab output. Last run time was approximately 3.52 seconds for **FminconInteriorPoint.m**, while 3.15 seconds for **SQPAlgorithm.m**.
-
-## Now it's your turn!
-
-Feel free to change the input values in the code for the **Paddler Strength** and the **Paddling Time**, and determine what paddle specifications best fit your needs. 
+- **Coefficient.xlsx** Drag & Lift Coefficients Data provided by NASA for Airfoil GOE 448.
+- **AirfoilCoefficient.m** Matlab code for Metamodel generation.
 
